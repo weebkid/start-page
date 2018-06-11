@@ -1,0 +1,126 @@
+/* -------------------------------------------------------------------
+  null
+---------------------------------------------------------------------- */
+
+html, body, div, span,
+header, nav, main, article, section, aside, footer,
+h1, h2, h3, h4, h5, h6,
+p, b, strong, i, em, u, a, ul, ol, li,
+blockquote, pre, code, img, video,
+table, caption, thead, tbody, tfoot, tr, th, td,
+form, input {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+}
+
+header, nav, main, article, section, aside, footer,
+blockquote, pre, img, video,
+table, form {
+  display: block;
+}
+
+
+html { font-size: 15px; }
+
+body {
+  margin: 4rem auto;
+  padding-right: 2rem;
+  padding-left: 2rem;
+  max-width: 36em;
+  background-color: #2b303a;
+  font: 1em/1.2 'IBM 3270', monospace;
+  color: #d9d7ce;
+}
+
+header { margin-bottom: 4rem; }
+
+main {
+  margin-top: 4rem;
+  margin-bottom: 4rem;
+}
+
+
+/* -------------------------------------------------------------------
+  text
+---------------------------------------------------------------------- */
+
+h1 {
+  font-size: 2em;
+  font-weight: bold;
+  line-height: 1;
+  color: #d9d7ce;
+}
+
+p {
+  margin-bottom: 1em;
+  text-align: left;
+}
+
+a,
+a:visited {
+  color: #95979c;
+  text-decoration: none;
+  -webkit-transition: all .25s ease-in-out;
+     -moz-transition: all .25s ease-in-out;
+          transition: all .25s ease-in-out;
+}
+a:hover { color: #b87f39; }
+
+/* -------------------------------------------------------------------
+  search bar
+---------------------------------------------------------------------- */
+
+input {
+  margin-bottom: 2rem;
+  padding-top: .25em;
+  padding-left: 1.25em;
+  padding-bottom: .25em;
+  box-sizing: border-box;
+  width: 100%;
+  border-bottom: 2px solid #e4aa80;
+  outline: none;
+  background-color: #b87f39;
+  font-family: 'IBM 3270', monospace;
+  font-size: 15px;
+  color: #2b303a;
+  -webkit-transition: all .25s ease-in-out;
+     -moz-transition: all .25s ease-in-out;
+          transition: all .25s ease-in-out;
+}
+input::placeholder { color: #2b303a; }
+input:focus {
+  border-bottom-color: #212733;
+  color: #212733;
+}
+
+/* -------------------------------------------------------------------
+  core
+---------------------------------------------------------------------- */
+
+ul { list-style-type: none; }
+ul:first-child { margin-top: 2rem; }
+ul:last-child { margin-bottom: 0; }
+
+li {
+  display: inline-block;
+  margin-right: 2px;
+  margin-bottom: 5px;
+}
+li:first-child {
+  margin-right: 1ch;
+  width: 9ch;
+  border-right: 2px solid #212733;
+}
+
+ul:hover li:first-child { border-right-color: #d9d7ce; }
+
+ul:nth-child(1) li:first-child{ color: #b87f39; }
+ul:nth-child(2) li:first-child{ color: #b87f39; }
+ul:nth-child(3) li:first-child{ color: #b87f39; }
+ul:nth-child(4) li:first-child{ color: #b87f39; }
+ul:nth-child(5) li:first-child{ color: #b87f39; }
+ul:nth-child(6) li:first-child{ color: #b87f39; }
+ul:nth-child(7) li:first-child{ color: #b87f39; }
+ul:nth-child(8) li:first-child{ color: #b87f39; }
